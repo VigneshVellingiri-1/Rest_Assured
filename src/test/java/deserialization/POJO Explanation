@@ -1,0 +1,73 @@
+The structure of the JSON response you shared is nested. To deserialize it properly, each nested JSON object or array should correspond to a Java class (POJO). Here's why you need each class:
+
+🔹 1. ApiResponse class — Represents the top-level JSON object
+This is the root object of the response. It contains:
+
+Simple fields: page, per_page, total, total_pages
+
+A list of users (data)
+
+A nested object called support
+
+📦 It maps to:
+
+json
+Copy
+Edit
+{
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [...],        ← List<User>
+  "support": {...}      ← Support
+}
+So ApiResponse has:
+
+A List<User> field
+
+A Support field
+
+🔹 2. User class — Represents each user object inside the data array
+Each item in the data array looks like:
+
+json
+Copy
+Edit
+{
+  "id": 1,
+  "email": "george.bluth@reqres.in",
+  "first_name": "George",
+  "last_name": "Bluth",
+  "avatar": "https://reqres.in/img/faces/1-image.jpg"
+}
+You need a User class to define:
+
+id
+
+email
+
+first_name
+
+last_name
+
+avatar
+
+And ApiResponse holds a List<User> to match the data array.
+
+🔹 3. Support class — Represents the nested support object
+The JSON has a nested object:
+
+json
+Copy
+Edit
+"support": {
+  "url": "...",
+  "text": "..."
+}
+To map this into Java, you need a Support class with:
+
+url
+
+text
+

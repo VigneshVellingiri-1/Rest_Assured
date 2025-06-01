@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Serialization.Create_user_Using_Serialization">
+      <class name="deserialization.deserialization">
         <methods>
-          <include name="createUser"/>
+          <include name="decreialization"/>
         </methods>
-      </class> <!-- Serialization.Create_user_Using_Serialization -->
+      </class> <!-- deserialization.deserialization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
