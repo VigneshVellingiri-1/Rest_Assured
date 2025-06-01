@@ -10,8 +10,9 @@ public class Create_user_Using_Serialization {
 	@Test
 	public void createUser() {
 		
-		C_user user = new C_user();
-		
+		C_user user = new C_user(); // created an object for user POJO class
+
+		// passing values to the flags by using setters
 		user.setName("Vignesh");
 		user.setJob("SDET");
 		
