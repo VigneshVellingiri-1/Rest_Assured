@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
-      <class name="postMethod.post_Method">
+      <class name="Serialization.Create_user_Using_Serialization">
         <methods>
-          <include name="s"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- postMethod.post_Method -->
-=======
-      <class name="authentications.Basic_Authentications">
-        <methods>
-          <include name="basic_Authentication_M2"/>
-        </methods>
-      </class> <!-- authentications.Basic_Authentications -->
->>>>>>> parent of 4a51552 (Bearer Tocken)
+      </class> <!-- Serialization.Create_user_Using_Serialization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
