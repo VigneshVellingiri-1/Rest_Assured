@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-13T08:48:29 IST" name="Default suite" finished-at="2025-06-13T08:48:31 IST" duration-ms="2309">
+  <suite started-at="2025-06-28T13:34:06 IST" name="Default suite" finished-at="2025-06-28T13:34:09 IST" duration-ms="2852">
     <groups>
     </groups>
-    <test started-at="2025-06-13T08:48:29 IST" name="Default test" finished-at="2025-06-13T08:48:31 IST" duration-ms="2309">
-      <class name="deserialization_1.Get_Single_user">
-        <test-method signature="sing()[pri:0, instance:deserialization_1.Get_Single_user@59662a0b]" started-at="2025-06-13T08:48:29 IST" name="sing" finished-at="2025-06-13T08:48:31 IST" duration-ms="2265" status="PASS">
+    <test started-at="2025-06-28T13:34:06 IST" name="Default test" finished-at="2025-06-28T13:34:09 IST" duration-ms="2852">
+      <class name="postMethod.postUsingMap">
+        <test-method signature="postusingMap()[pri:0, instance:postMethod.postUsingMap@9597028]" started-at="2025-06-28T13:34:06 IST" name="postusingMap" finished-at="2025-06-28T13:34:09 IST" duration-ms="2810" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sing -->
-      </class> <!-- deserialization_1.Get_Single_user -->
+        </test-method> <!-- postusingMap -->
+      </class> <!-- postMethod.postUsingMap -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
