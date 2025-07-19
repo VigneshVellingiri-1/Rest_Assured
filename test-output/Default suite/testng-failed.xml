@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="deserialization.deserialization">
+      <class name="jsonSchemaValidation.JsonSchemaValidation">
         <methods>
-          <include name="decreialization"/>
+          <include name="queryParam"/>
         </methods>
-      </class> <!-- deserialization.deserialization -->
+      </class> <!-- jsonSchemaValidation.JsonSchemaValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
